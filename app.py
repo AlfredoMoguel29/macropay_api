@@ -9,7 +9,6 @@ app = Flask(__name__)
 list = sorted_list()
 
 @app.route('/contacts', methods = ['GET'])
-
 def index():
     """
     Index endpoint, returns an ordered list deppending on phrase parameter.
