@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, make_response
 from utils import sorted_list
 import settings
 
-
+#Initilize app
 app = Flask(__name__)
 
 # Loading database
