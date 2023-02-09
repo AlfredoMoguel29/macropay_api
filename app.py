@@ -26,6 +26,8 @@ def index():
         resp = make_response("", 404)
         return resp
 
+    print('Prueba')
+
     # parameter exists
     else:
         matching_list = [person for person in list if phrase in person['name'].lower()]
