@@ -2,14 +2,13 @@ from flask import Flask, jsonify, request, make_response
 from utils import sorted_list
 import settings
 
-
+#Initilize app (online)
 app = Flask(__name__)
 
 # Loading database
 list = sorted_list()
 
 @app.route('/contacts', methods = ['GET'])
-
 def index():
     """
     Index endpoint, returns an ordered list deppending on phrase parameter.
