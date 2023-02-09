@@ -26,6 +26,7 @@ def index():
         return resp
 
     print('Prueba')
+    print('Probando ramas')
 
     # parameter exists
     else:
